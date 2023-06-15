@@ -1,15 +1,15 @@
 #include<stdio.h>
-int Bigger(int a ,int b)
+int Bigger(int num1 ,int num2)
 {int larger;
-larger = a>b?a:b; 
+larger = num1>num2?num1:num2; 
 return larger;}
 int main()
 {
   // Variable declaration
-   int a,b,larg;  
+   int num1,num2,larg;  
    printf("Enter two number\n");
-   scanf("%d %d",&a,&b);
-   larg=Bigger(a,b);
+   scanf("%d %d",&num1,&num2);
+   larg=Bigger(num1,num2);
    printf("largest number is : %d",larg);  
   return 0;
 }
